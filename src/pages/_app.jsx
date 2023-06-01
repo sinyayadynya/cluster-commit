@@ -12,10 +12,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Commit - Open-source Git client for macOS minimalists</title>
+        <title>Cluster.kg - Кыргызстан - центр разнообразных и инновационных инвестиций</title>
         <meta
           name="description"
-          content="Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary."
+          content="Горный кластер - это платформа, которая связывает инвесторов с разнообразными и устойчивыми возможностями в динамичных секторах и отраслях Кыргызстана, создавая ценность и влияние для регионов и сообществ."
         />
       </Head>
       <ThemeProvider attribute="class" disableTransitionOnChange>
