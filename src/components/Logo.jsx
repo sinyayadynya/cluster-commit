@@ -15,8 +15,8 @@ export function Logo(props) {
         </g>
         <defs>
             <linearGradient id={`${id}-g`} x1="50.016%" x2="50.016%" y1=".012%" y2="99.988%">
-                <stop offset="0%" stop-color="#AAE4FF"/>
-                <stop offset="100%" stop-color="#38BDF8"/>
+                <stop offset="0%" stopColor="#AAE4FF"/>
+                <stop offset="100%" stopColor="#38BDF8"/>
             </linearGradient>
         </defs>
     </svg>
