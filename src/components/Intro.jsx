@@ -12,13 +12,30 @@ function BookIcon(props) {
   )
 }
 
-function GitHubIcon(props) {
+function NewspaperIcon(props) {
   return (
-    <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor" {...props}>
-      <path d="M8 .198a8 8 0 0 0-8 8 7.999 7.999 0 0 0 5.47 7.59c.4.076.547-.172.547-.384 0-.19-.007-.694-.01-1.36-2.226.482-2.695-1.074-2.695-1.074-.364-.923-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.224 1.873.87 2.33.666.072-.518.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.954 0-.873.31-1.586.823-2.146-.09-.202-.36-1.016.07-2.118 0 0 .67-.214 2.2.82a7.67 7.67 0 0 1 2-.27 7.67 7.67 0 0 1 2 .27c1.52-1.034 2.19-.82 2.19-.82.43 1.102.16 1.916.08 2.118.51.56.82 1.273.82 2.146 0 3.074-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38A7.972 7.972 0 0 0 16 8.199a8 8 0 0 0-8-8Z" />
+    <svg viewBox="0 0 20 20" aria-hidden="true" fill="currentColor" {...props}>
+        <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h9A1.5 1.5 0 0114 3.5v11.75A2.75 2.75 0 0016.75 18h-12A2.75 2.75 0 012 15.25V3.5zm3.75 7a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zm0 3a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM5 5.75A.75.75 0 015.75 5h4.5a.75.75 0 01.75.75v2.5a.75.75 0 01-.75.75h-4.5A.75.75 0 015 8.25v-2.5z" clip-rule="evenodd" />
+        <path d="M16.5 6.5h-1v8.75a1.25 1.25 0 102.5 0V8a1.5 1.5 0 00-1.5-1.5z" />
     </svg>
   )
 }
+
+function StarIcon(props) {
+    return (
+        <svg viewBox="0 0 20 20" aria-hidden="true" fill="currentColor" {...props}>
+            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+        </svg>
+    )
+  }
+
+  function BookmarkSquareIcon(props) {
+    return (
+        <svg viewBox="0 0 20 20" aria-hidden="true" fill="currentColor" {...props}>
+            <path fill-rule="evenodd" d="M4.25 2A2.25 2.25 0 002 4.25v11.5A2.25 2.25 0 004.25 18h11.5A2.25 2.25 0 0018 15.75V4.25A2.25 2.25 0 0015.75 2H4.25zM6 13.25V3.5h8v9.75a.75.75 0 01-1.064.681L10 12.576l-2.936 1.355A.75.75 0 016 13.25z" clip-rule="evenodd" />
+        </svg>
+    )
+  }
 
 function FeedIcon(props) {
   return (
@@ -56,6 +73,22 @@ function PuzzleIcon(props) {
     )
 }
 
+function ChartBarIcon(props) {
+    return (
+        <svg viewBox="0 0 20 20" aria-hidden="true" fill="currentColor" {...props}>
+            <path d="M15.5 2A1.5 1.5 0 0014 3.5v13a1.5 1.5 0 001.5 1.5h1a1.5 1.5 0 001.5-1.5v-13A1.5 1.5 0 0016.5 2h-1zM9.5 6A1.5 1.5 0 008 7.5v9A1.5 1.5 0 009.5 18h1a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0010.5 6h-1zM3.5 10A1.5 1.5 0 002 11.5v5A1.5 1.5 0 003.5 18h1A1.5 1.5 0 006 16.5v-5A1.5 1.5 0 004.5 10h-1z" />
+        </svg>
+    )
+}
+
+function MegaphoneIcon(props) {
+    return (
+        <svg viewBox="0 0 20 20" aria-hidden="true" fill="currentColor" {...props}>
+            <path d="M13.92 3.845a19.361 19.361 0 01-6.3 1.98C6.765 5.942 5.89 6 5 6a4 4 0 00-.504 7.969 15.974 15.974 0 001.271 3.341c.397.77 1.342 1 2.05.59l.867-.5c.726-.42.94-1.321.588-2.021-.166-.33-.315-.666-.448-1.004 1.8.358 3.511.964 5.096 1.78A17.964 17.964 0 0015 10c0-2.161-.381-4.234-1.08-6.155zM15.243 3.097A19.456 19.456 0 0116.5 10c0 2.431-.445 4.758-1.257 6.904l-.03.077a.75.75 0 001.401.537 20.902 20.902 0 001.312-5.745 1.999 1.999 0 000-3.545 20.902 20.902 0 00-1.312-5.745.75.75 0 00-1.4.537l.029.077z" />
+        </svg>
+    )
+}
+
 function TelegramIcon(props) {
     return (
         <svg viewBox="0 0 20 20" aria-hidden="true" fill="currentColor" {...props}>
@@ -73,19 +106,25 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Кыргызстан - центр разнообразных{' '}
-        <span className="text-sky-300">и инновационных инвестиций</span>
+        Новые инвестиционные{' '}
+        <span className="text-sky-300">возможности в Кыргызстане</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Горный кластер - это платформа, которая связывает инвесторов с разнообразными и устойчивыми возможностями в динамичных секторах и отраслях Кыргызстана, создавая ценность и влияние для регионов и сообществ.
+        Кластер представляет собой объединение экономической деятельности юридических и физических лиц в различных отраслях. Целью такого объединения является совместная реализация конкурентных преимуществ определенной административно-территориальной единицы.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+        <IconLink href="#цели-горного-кластера" icon={StarIcon} className="flex-none">
+            Цели
+        </IconLink>
+        <IconLink href="#новые-инвестиционные-возможности-в-кыргызстане" icon={ChartBarIcon} className="flex-none">
+            Инвестиционные возможности
+        </IconLink>
+        <IconLink href="#постановление-правительства" icon={BookmarkSquareIcon} className="flex-none">
+            Декрет правительства
+        </IconLink>
         <IconLink href="#" icon={JoinIcon} className="flex-none">
             Как присоединиться
-        </IconLink>
-        <IconLink href="/rss/feed.xml" icon={FeedIcon} className="flex-none">
-          RSS
         </IconLink>
       </div>
     </>
@@ -94,11 +133,16 @@ export function Intro() {
 
 export function IntroFooter() {
   return (
-    <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      Присоединяйтесь к нашему{' '}
-      <IconLink href="https://t.me/clusterkg" icon={TelegramIcon} compact large>
-        телеграм-каналу
-      </IconLink>
-    </p>
+    <div className='flex gap-x-1 gap-y-3'>
+        <p className="flex shrink-0 items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
+            Присоединяйтесь к нашему{' '}
+            <IconLink href="https://t.me/clusterkg" icon={TelegramIcon} compact large>
+                телеграм-каналу
+            </IconLink>
+        </p>
+        <IconLink href="/rss/feed.xml" icon={FeedIcon} className="flex-none">
+          RSS
+        </IconLink>
+    </div>
   )
 }
