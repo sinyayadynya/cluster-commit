@@ -114,7 +114,7 @@ export function Intro() {
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#цели-горного-кластера" icon={StarIcon} className="flex-none">
+        <IconLink href="#цели-горнолыжного-кластера" icon={StarIcon} className="flex-none">
             Цели
         </IconLink>
         <IconLink href="#новые-инвестиционные-возможности-в-кыргызстане" icon={ChartBarIcon} className="flex-none">
