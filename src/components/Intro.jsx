@@ -121,7 +121,7 @@ export function Intro() {
             Инвестиционные возможности
         </IconLink>
         <IconLink href="#постановление-правительства" icon={BookmarkSquareIcon} className="flex-none">
-            Постановление правительства
+            Постановление
         </IconLink>
         <IconLink href="#" icon={JoinIcon} className="flex-none">
             Как присоединиться
