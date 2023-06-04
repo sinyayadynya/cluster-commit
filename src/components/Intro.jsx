@@ -135,9 +135,9 @@ export function IntroFooter() {
   return (
     <div className='flex gap-x-1 gap-y-3'>
         <p className="flex shrink-0 items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-            Присоединяйтесь к нашему{' '}
+            Официальный{' '}
             <IconLink href="https://t.me/clusterkg" icon={TelegramIcon} compact large>
-                телеграм-каналу
+                телеграм-канал
             </IconLink>
         </p>
         <IconLink href="/rss/feed.xml" icon={FeedIcon} className="flex-none">
