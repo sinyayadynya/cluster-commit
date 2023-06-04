@@ -120,8 +120,8 @@ export function Intro() {
         <IconLink href="#новые-инвестиционные-возможности-в-кыргызстане" icon={ChartBarIcon} className="flex-none">
             Инвестиционные возможности
         </IconLink>
-        <IconLink href="#декрет-правительства" icon={BookmarkSquareIcon} className="flex-none">
-            Декрет правительства
+        <IconLink href="#постановление-правительства" icon={BookmarkSquareIcon} className="flex-none">
+            Постановление правительства
         </IconLink>
         <IconLink href="#" icon={JoinIcon} className="flex-none">
             Как присоединиться
