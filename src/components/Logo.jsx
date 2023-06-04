@@ -6,7 +6,7 @@ export function Logo(props) {
   return (
     <svg className="h-8 w-auto" viewBox="0 0 178.574 24">
         <title>Горный Кластер</title>
-        <g fill="none" fill-rule="evenodd">
+        <g fill="none" fillRule="evenodd">
             <path fill={`url(#${id}-g)`} d="m7.25 17.198 3.59-6.018 3.59-6.018 3.59 6.018 3.59 6.018H7.25Zm12.973-7.363L14.356 0 8.489 9.835l-5.867 9.836H26.09l-5.867-9.836Z"/>
             <path fill="#0EA5E9" d="M1.497 21.505h8.511L14.294 14l4.522 7.505h8.399l1.446 2.409-11.49.005-2.668-4.654L11.487 24H0z"/>
             <g fill="#FFF">
