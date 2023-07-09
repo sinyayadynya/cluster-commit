@@ -123,7 +123,7 @@ export function Intro() {
         <IconLink href="#постановление-правительства" icon={BookmarkSquareIcon} className="flex-none">
             Постановление
         </IconLink>
-        <IconLink href="#" icon={JoinIcon} className="flex-none">
+        <IconLink href="#как-присоединиться" icon={JoinIcon} className="flex-none">
             Как присоединиться
         </IconLink>
       </div>
