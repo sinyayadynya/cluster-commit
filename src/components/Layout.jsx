@@ -1,7 +1,7 @@
 import { useId } from 'react'
 
 import { Intro, IntroFooter } from '@/components/Intro'
-import { StarField } from '@/components/StarField'
+// import { StarField } from '@/components/StarField'
 import { MountainField } from '@/components/MountainField'
 import { ThemeToggle } from '@/components/ThemeToggle'
 
@@ -96,7 +96,7 @@ export function Layout({ children }) {
       <ThemeToggle />
       <div className="relative flex-auto">
         <Timeline />
-        <main className="space-y-20 py-20 sm:space-y-32 sm:py-32">
+        <main className="space-y-16 py-16 sm:space-y-24 sm:py-24">
           {children}
         </main>
       </div>
